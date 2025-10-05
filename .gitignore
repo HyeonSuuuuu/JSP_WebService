@@ -1,18 +1,41 @@
-# Build and Release Folders
-bin-debug/
-bin-release/
-[Oo]bj/
-[Bb]in/
+# Compiled output from the build process
+build/
+target/
+/WEB-INF/classes/
+*.class
+*.war
+*.ear
 
-# Other files and folders
+# Log files
+*.log
+
+# IDE-specific files and folders
+# Eclipse
+.classpath
+.project
 .settings/
+.metadata/
 
-# Executables
-*.swf
-*.air
-*.ipa
-*.apk
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+out/
 
-# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
-# should NOT be excluded as they contain compiler settings and other important
-# information for Eclipse / Flash Builder.
+# Dependency directories
+node_modules/
+/WEB-INF/lib/
+
+# Temporary files and backups
+*.tmp
+*.bak
+*.swp
+
+# macOS specific files
+.DS_Store
+
+# Server configurations
+Servers/
+
+# Build manifest file
+**/META-INF/MANIFEST.MF
